@@ -45,7 +45,7 @@ public class SecurityResourceTest {
 		when(service.requestQuestion())
 				.thenReturn("Here you go, solve the question: \"Please sum1 the nddumbers 14,20,2\"");
 		/*
-		 * this.mockMvc.perform(post(basePath +
+		 * this.mockMvc.perform(post(basePath1 +
 		 * "question").contentType(MediaType.APPLICATION_JSON).content("test"))
 		 * .andDo(print()).andExpect(status().isOk()). andExpect(
 		 * jsonPath("$[0].question","\"Please sum the numbers 14,20,2\""));
