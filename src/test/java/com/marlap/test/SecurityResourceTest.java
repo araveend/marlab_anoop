@@ -43,7 +43,7 @@ public class SecurityResourceTest {
 	@Test
 	public void getQuestion() throws Exception {
 		when(service.requestQuestion())
-				.thenReturn("Here you go, solve the question: \"Please sum the nddumbers 14,20,2\"");
+				.thenReturn("Here you go, solve the question: \"Please sum1 the nddumbers 14,20,2\"");
 		/*
 		 * this.mockMvc.perform(post(basePath +
 		 * "question").contentType(MediaType.APPLICATION_JSON).content("test"))
